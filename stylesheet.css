@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #1D1D1D;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid;
+  color: #D64ED9;
+  border-radius: 50px;
+  border-top-color: transparent;
+  animation: loader 2s linear infinite;
+}
+
+.loader-container.hidden {
+  animation: hiding 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hiding {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes loader{
+  25%{
+    color: #AE84D9
+  }
+  50%{
+    color: #F1BDF2;
+  }
+  75%{
+    color: blueviolet;
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.topnav {
+    background-color: #1D1D1D;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section {
+    color: #D64ED9;
+    padding: 10px;
+  }
+  
+  .section.blue {
+    background-color: #1D1D1D;
+  }
+  
+  .section.blue p {
+    color: ##AE84D9;
+  }
+  
+  .section.peach {
+    background-color: #1d1d1d;
+
+  }
+
+  .section.peach h2 {
+    color: #006D77
+  }
+  
+  .section.peach p {
+    color: #006D77;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #D64ED9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+    align-items: center;
+  }
+  
+  .topnav a:hover {
+    color: #F1BDF2;
+  }
+  
+  .topnav a.active {
+    background-color: #4c77af;
+    color: white;
+  }
+
+  h1 {
+    font-family: myFirstFont;
+    src: url(Montserrat/Montserrat-Light.ttf);
+  }
+
+  h2 {
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+
+  p {
+    font-family: myFirstFont;
+    src: url(Montserrat/Montserrat-Light.ttf);
+    color: whitesmoke;
+    
+  }
+    
+    @font-face {
+      font-family: myFirstFont;
+      src: url(Montserrat/Montserrat-Light.ttf);
+      font-weight: regular;
+    }
+
+    .maincontainer1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .AboutMe {
+      background-color: #1D1D1D;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .AboutMe h1 {
+      color: #AE84D9;
+    }
+    
+    .AboutMe h2 {
+      color: #dedae2
+    }
+
+    .aboutmetext {
+      color: #AE84D9;
+      background-color: #1d1d1d;
+      padding-left: 3%;
+      flex: 50%;
+      flex-direction: row;
+    }
+    
+    .victoriaimg {
+      background-color: #1D1D1D;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .victoriaimg img{
+      height: 500px;
+      padding: 5%;
+
+    }
+
+    .text {
+      padding-left: 3%;
+      padding-top: 2%;
+      align-items: center;
+      background-color: #1d1d1d;
+      color: #D64ED9;
+    }
+
+    .secondcontainer {
+      background-color: #1D1D1D;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5%;
+    }
+
+    .work {
+      background-color: white;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 500px;
+      background-color: #1D1D1D;
+    }
+    
+    .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px #D64ED9;
+      transition: 0.3s;
+      color: white;
+      font-family: myFirstFont;
+      src: url(Montserrat/Montserrat-Light.ttf);
+      width: 400px;
+      padding: 3%;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(82, 79, 79, 0.2);
+    }
+    
+    /* Add some padding inside the card container */
+    .container {
+      padding: 2px 16px;
+    }
+
+
+    .footer {
+      background-color: #1d1d1d;
+      overflow: hidden;
+      align-items: center;
+      color: #D64ED9;
+      padding: 10px;
+      font-family: myFirstFont;
+      src: url(Montserrat/Montserrat-Light.ttf);
+      text-align: center;
+      align-items: center;
+    }
+
+    .pictures {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2%;
+    }
+
+    .pictures a{
+      padding: 0px 5px;
+    }
+
+    
+    
+
+    
+    
+    
