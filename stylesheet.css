@@ -21,11 +21,11 @@ body {
   color: #D64ED9;
   border-radius: 50px;
   border-top-color: transparent;
-  animation: loader 2s linear infinite;
+  animation: loader 4s linear infinite;
 }
 
 .loader-container.hidden {
-  animation: hiding 2s;
+  animation: hiding 4s;
   animation-fill-mode: forwards;
 }
 
