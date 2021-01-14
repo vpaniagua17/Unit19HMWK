@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../UX_UI_HW_20"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Unit20HMWK"
+	}
+}
